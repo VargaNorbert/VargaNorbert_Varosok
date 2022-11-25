@@ -10,33 +10,33 @@
         android:id="@+id/addnev"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Név"
+        android:hint="@string/n_v"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/addorszag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ország"
+        android:hint="@string/orsz_g"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/addlakossag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Lakosság"
+        android:hint="@string/lakoss_g"
         android:inputType="number" />
 
     <Button
         android:id="@+id/buttonadd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Felvétel" />
+        android:text="@string/felv_tel" />
 
     <Button
         android:id="@+id/buttonback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vissza" />
+        android:text="@string/vissza" />
 
 </LinearLayout>
