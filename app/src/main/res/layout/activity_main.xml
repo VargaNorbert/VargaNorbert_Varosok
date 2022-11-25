@@ -8,13 +8,13 @@
     android:layout_marginTop="20dp">
 
         <Button
-            android:id="@+id/buttonlist"
+            android:id="@+id/listButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/list_z_s" />
 
         <Button
-            android:id="@+id/buttonadd"
+            android:id="@+id/addButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/j_felv_tel" />
