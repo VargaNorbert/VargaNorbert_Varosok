@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InsertActivity">
+    tools:context=".InsertActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/addnev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Név"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/addorszag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ország"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/addlakossag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lakosság"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Felvétel" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza" />
+
+</LinearLayout>
