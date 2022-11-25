@@ -40,12 +40,4 @@ public class Varos {
     public void setLakossag(int lakossag) {
         this.lakossag = lakossag;
     }
-
-    @Override
-    public String toString() {
-        return "Város: { " +
-                "Név" + ":" + nev + "\n" +
-                "Ország" + ":" + orszag + "\n" +
-                "Lakosság" + ":" + lakossag + "}";
-    }
 }

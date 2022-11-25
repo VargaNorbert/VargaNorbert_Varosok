@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button listButton;
     private Button addButton;
 
-    public void init(){
+    public void init() {
         addButton = findViewById(R.id.addButton);
         listButton = findViewById(R.id.listButton);
     }

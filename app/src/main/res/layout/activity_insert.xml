@@ -7,34 +7,34 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/addnev"
+        android:id="@+id/nev"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/n_v"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/addorszag"
+        android:id="@+id/orszag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/orsz_g"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/addlakossag"
+        android:id="@+id/lakossag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/lakoss_g"
         android:inputType="number" />
 
     <Button
-        android:id="@+id/buttonadd"
+        android:id="@+id/addButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/felv_tel" />
 
     <Button
-        android:id="@+id/buttonback"
+        android:id="@+id/backButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/vissza" />
