@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">VargaNorbert_Mobil_Rest_Varosok</string>
+    <string name="list_z_s">Listázás</string>
+    <string name="j_felv_tel">Új felvétel</string>
 </resources>

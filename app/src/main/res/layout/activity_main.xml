@@ -11,12 +11,12 @@
             android:id="@+id/buttonlist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Listázás" />
+            android:text="@string/list_z_s" />
 
         <Button
             android:id="@+id/buttonadd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Új felvétel" />
+            android:text="@string/j_felv_tel" />
 
 </LinearLayout>
